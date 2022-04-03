@@ -1,5 +1,5 @@
 
 module.exports = {
   coverageDirectory: 'coverage',
-  testEvironment: 'node'
+  testEnvironment: 'node'
 }
