@@ -8,12 +8,6 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
