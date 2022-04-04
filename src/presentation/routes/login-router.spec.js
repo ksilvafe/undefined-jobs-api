@@ -34,7 +34,7 @@ const makeAuthUseCaseWithError = () => {
 }
 
 describe('Login Router', () => {
-  test('Should return if no email is provider', async () => {
+  test('Should return 400 if no email is provider', async () => {
     const { sut } = makeSut()
     const httpRequest = {
       body: {
@@ -46,7 +46,7 @@ describe('Login Router', () => {
     expect(httpResponse.body).toEqual(new MissingParamError('email'))
   })
 
-  test('Should return if no email is provider', async () => {
+  test('Should return 400 if no password is provider', async () => {
     const { sut } = makeSut()
     const httpRequest = {
       body: {
@@ -138,7 +138,7 @@ describe('Login Router', () => {
     expect(httpResponse.body).toEqual(new ServerError())
   })
 
-  test('Should return 500 no AuthUseCase has no auth method', async () => {
+  test('Should return 500 no AuthUseCase throws', async () => {
     const authUseCaseSpy = makeAuthUseCaseWithError()
     const sut = new LoginRouter(authUseCaseSpy)
     const httpRequest = {
