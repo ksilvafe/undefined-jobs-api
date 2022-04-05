@@ -1,0 +1,41 @@
+# Usuario - Buscando emprego
+
+# Empresa / Recruit - Buscando Profissionais ( usuarios )
+
+# Entity
+
+User {
+    name,
+    email,
+    password,
+    age,
+    description
+}
+
+Company {
+    name,
+    email,
+    password,
+    description
+}
+
+Recruiter {
+    name,
+    email,
+    password,
+    age,
+    description
+}
+
+# Use Case
+
+User register site
+User sending cv to jobs
+
+Company register site
+Company publish jobs site 
+Company receive cvs
+
+Recruiter register site
+Recruiter publish jobs site
+Recruiter receive cvs
