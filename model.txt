@@ -39,3 +39,5 @@ Company receive cvs
 Recruiter register site
 Recruiter publish jobs site
 Recruiter receive cvs
+
+## create model diagrama
