@@ -7,3 +7,10 @@ API Desenvolvida com NodeJS aplicando os seguintes metodos:
 * Design Patterns
 
 Testes Unitarios/Integração com Jest.
+
+* bcrypt
+* jsonwebtoken
+* validator
+* husky
+* lint-staged
+* standard 
