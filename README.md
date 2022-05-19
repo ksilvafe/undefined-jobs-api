@@ -1,5 +1,9 @@
 # undefined-jobs-api
 
-API desenvolvida usando TDD 
+API Desenvolvida com NodeJS aplicando os seguintes metodos: 
 
-teste: jest
+* TDD
+* Clean Architecture
+* Design Patterns
+
+Testes Unitarios/Integração com Jest.
